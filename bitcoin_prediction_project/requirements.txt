@@ -1,0 +1,32 @@
+# ================================================================
+#  PFA — Prévision de Séries Temporelles | EMSI IA & Data
+#  Fichier : requirements.txt
+#  Équipe 9 : Hatim • Amjad • Saad
+# ================================================================
+#
+# Installation :
+#   pip install -r requirements.txt
+#
+# ================================================================
+
+# Core Data Science
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+
+# Deep Learning
+tensorflow>=2.13.0          # LSTM, GRU, CNN-LSTM
+
+# ARIMA / Time Series statistique
+statsmodels>=0.14.0          # ARIMA
+pmdarima>=2.0.3              # auto_arima (sélection automatique p,d,q)
+
+# Modèles optionnels (Niveau 2 / 3)
+# prophet>=1.1.4             # Meta Prophet (décommenter si utilisé)
+# xgboost>=2.0.0             # XGBoost (décommenter si utilisé)
+
+# Jupyter (pour les notebooks)
+jupyter>=1.0.0
+ipykernel>=6.0.0

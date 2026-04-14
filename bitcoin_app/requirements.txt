@@ -1,0 +1,25 @@
+# ================================================================
+#  Bitcoin Prediction App — Requirements
+#  PFA EMSI — Équipe 9
+#
+#  Installation : pip install -r requirements.txt
+#  Lancement    : streamlit run app.py
+# ================================================================
+
+# Interface
+streamlit>=1.30.0
+
+# Visualisation interactive
+plotly>=5.18.0
+
+# Data Science
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Deep Learning (pour save_models.py + prédictions)
+tensorflow>=2.13.0
+
+# ARIMA (pour save_models.py)
+statsmodels>=0.14.0
+pmdarima>=2.0.3

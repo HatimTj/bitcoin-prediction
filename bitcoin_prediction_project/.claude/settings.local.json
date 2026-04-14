@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"/Users/oussamatj/Desktop/emsi 4 émé/2 sem/pfa/bitcoin_app/pages\" \"/Users/oussamatj/Desktop/emsi 4 émé/2 sem/pfa/bitcoin_app/src\" \"/Users/oussamatj/Desktop/emsi 4 émé/2 sem/pfa/bitcoin_app/models\" \"/Users/oussamatj/Desktop/emsi 4 émé/2 sem/pfa/bitcoin_app/data\")",
+      "Bash(cp \"/Users/oussamatj/Desktop/emsi 4 émé/2 sem/pfa/bitcoin_prediction_project/data/bitcoin.csv\" \"/Users/oussamatj/Desktop/emsi 4 émé/2 sem/pfa/bitcoin_app/data/bitcoin.csv\")",
+      "Bash(cp \"/Users/oussamatj/Desktop/emsi 4 émé/2 sem/pfa/bitcoin_prediction_project/results/metrics/comparison_table.csv\" \"/Users/oussamatj/Desktop/emsi 4 émé/2 sem/pfa/bitcoin_app/data/comparison_table.csv\")",
+      "Bash(python3 -c ':*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3 -m streamlit run app.py --server.headless true --server.port 8501)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8501)",
+      "Bash(curl -s http://localhost:8501)",
+      "Bash(curl -s -o /dev/null -w \"app.py: %{http_code}\\\\n\" http://localhost:8501)",
+      "Bash(curl -s -o /dev/null -w \"page Exploration: %{http_code}\\\\n\" \"http://localhost:8501/Exploration\")",
+      "Bash(curl -s -o /dev/null -w \"page Comparaison: %{http_code}\\\\n\" \"http://localhost:8501/Comparaison\")",
+      "Bash(curl -s -o /dev/null -w \"page A_Propos: %{http_code}\\\\n\" \"http://localhost:8501/A_Propos\")",
+      "Bash(python3:*)",
+      "Bash(find \"/Users/oussamatj/Desktop/emsi 4 émé/2 sem/pfa/bitcoin_app\" -name \"*.pyc\" -delete)",
+      "Bash(find \"/Users/oussamatj/Desktop/emsi 4 émé/2 sem/pfa/bitcoin_app\" -name \"__pycache__\" -type d -exec rm -rf {} +)",
+      "Bash(pkill -f \"streamlit run\")",
+      "Bash(curl -s -o /dev/null -w \"Status: %{http_code}\\\\n\" http://localhost:8501)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:8501)"
+    ]
+  }
+}
